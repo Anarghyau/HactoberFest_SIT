@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main(){
+int main() {
 	char str[200],text[200],new_str[200];
 	int i=0,j=0,k=0,pos=0,n=0;
 	gets(text);
