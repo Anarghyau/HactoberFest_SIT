@@ -11,8 +11,9 @@ int main(){
     for(int j=i;j<=2+i;j++){
 
         printf("%d",numArr[j]);
-        if((j+1)%3!=0)
+        if((j+1)%3!=0){
             printf(",");
+        }
     }
     printf("\n");
    }
