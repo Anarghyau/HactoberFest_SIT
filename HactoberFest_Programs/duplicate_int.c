@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(){
+int main (){
 	int i,j,size,flag=0;
 	printf("Enter the number of elements: \n");
 	scanf("%d",&size);
