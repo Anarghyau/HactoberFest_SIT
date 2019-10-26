@@ -5,7 +5,7 @@ int fact(int num){
 	else
 		return num* fact(num-1);
 }
-int main(){
+int main() {
 	int num;
 	printf("\nEnter the number: ");
 	scanf("%d",&num);
