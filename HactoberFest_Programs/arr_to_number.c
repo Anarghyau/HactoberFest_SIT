@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-int main(){
+void main(){
 	int i,dig,number=0;
 	printf("enter the value:");
 	scanf("%d",&dig);
@@ -13,5 +13,5 @@ int main(){
 		number=number+arr[i]*math.pow(10,i);
 	}
 	printf("\nThe number is: %d\n",number);
-return 0;
+
 }
