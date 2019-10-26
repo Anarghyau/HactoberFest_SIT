@@ -11,9 +11,8 @@ int main(){
 		row++;
 	}
 	for(i=0;i<7;i++){
-		for(j=0;j<=i;j++){
+		for(j=0;j<=i;j++)
 			printf("%d\t",arr[i][j]);
-		}
 		printf("\n");
 	}
 	return 0;
