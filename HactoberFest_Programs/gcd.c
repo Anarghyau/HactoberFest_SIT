@@ -8,7 +8,7 @@ for (int i = 1; i <= num1 && i <= num2; i++)
    }
 return g;
 }
-int main(){
+int main (){
 	int num1,num2,res=0;
 	printf("\nEnter 2 numbers : ");
 	scanf("%d%d",&num1,&num2);
