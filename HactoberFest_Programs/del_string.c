@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int main(){
+int main() {
 	char text[200],new_str[200];
 	int i=0,j=0,pos=0,num=0;
 	printf("\nEnter a string: ");
